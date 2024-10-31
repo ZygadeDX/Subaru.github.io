@@ -3,53 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <title>My Portofolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <h1 class="logo">Portofolio</h1>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <header id="home" class="slider">
-        <div class="slide active">
-            <img src="image1.jpg" alt="Gambar 1">
-        </div>
-        <div class="slide">
-            <img src="image2.jpg" alt="Gambar 2">
-        </div>
-        <div class="slide">
-            <img src="image3.jpg" alt="Gambar 3">
-        </div>
-        <div class="navigation">
-            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-            <button class="next" onclick="changeSlide(1)">&#10095;</button>
-        </div>
-    </header>
+<div class="navigasi">
+    <div class="logo">
+        <h2>Portofolio</h2>
+    </div>
 
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Ini adalah deskripsi tentang diri saya.</p>
-    </section>
+    <div class="menu">
+         <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Tools">Tools</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+</div> 
 
-    <section id="projects">
-        <h2>Projek</h2>
-        <p>Berikut adalah beberapa projek yang telah saya kerjakan.</p>
-    </section>
+<div class="banner" id="Home">
+    <img src="Foto Diri.jpeg">
+    <h1>Halo Semua Saya Rashid</h1>
+    <p>Selamat Datang Di Portofolio Saya!!</p>
 
-    <section id="contact">
-        <h2>Kontak</h2>
-        <p>Anda dapat menghubungi saya melalui email: contoh@email.com</p>
-    </section>
+</div>
 
-    <script src="script.js"></script>
+
+<div class="JudulAbout"id="About">
+    <h1>Tentang Saya</h1>  
+</div>
+
+<div class="IsiAbout">
+    <p>
+    Halo nama saya Muhammad Rashid Al Savero, sekarang sedang menjalani perkuliahan di Universitas Logistik dan Bisnis Internasional, saya adalah mahasiswa jurusan D4 Teknik Informatika.
+    Saya berasal dari Kota Majalengka, lahir pada tanggal 24 Juni 2007. Hobi saya mendengar musik, menggambar dan Berolahraga. Saya merupakan lulusan dari SDN Ciborelang 1, SMPN 1 Jatiwangi dan SMAN 1 Jatiwangi.
+    Cita cita saya adalah menjadi orang sukses dunia akhirat.
+    </p>
+</div>
+
+
+<div class="JudulTools" id="Tools">
+    <h1>Tools Yang Saya Gunakan</h1>
+
+    <div class="IsiToolsKiri">
+    <p><h3>Canva</h3></p>
+    <p>Saya cukup mahir menggunakan aplikasi Canva, Aplikasi Canva Ini Lumayan Simple Untuk Digunakan</p>
+    </div>
+
+    <div class="IsiToolsTengah">
+    <p><h3>ChatGPT</h3></p>
+    <p>Saya bisa menggunakan ChatGPT Karena Saya Sudah Sering Menggunakan ChatGPT</p>
+    </div>
+
+    <div class="IsiToolsKanan">
+    <p><h3>Visual Studio Code</h3></p>
+    <p>Saya cukup bisa menggunakan aplikasi Visual Studio Code, Karena Saya Sering Menggunakan Aplikasi Tersebut</p>
+    </div>
+</div>
+
+<div class="JudulContact" id="Contact">
+    <h1>Hubungi Saya</h1>
+
+    <div class="IsiContactKiri">
+    <p><h3>GitHub</h3></p>
+    <P>Ini Adalah Akun GitHub Yang Saya Punya</P>
+    <p><a href="https://github.com/ZygadeDX"> GitHub Saya</a></p>
+    </div>
+
+    <div class="IsiContactKiri">
+    <p><h3>Instagram</h3></p>
+    <P>Ini Adalah Akun Instagram Yang Saya Punya</P>
+    <p><a href="https://www.instagram.com/1equinox11/">Instagram Saya</a></p>
+    </div>
+
+</div>
+
 </body>
 </html>
